@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Responsive Social Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js" defer></script>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/ed64d234be.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="nav" data-nav>
+        <h1 class="nav__title">ultranet</h1>
+    </nav>
+    <nav class="nav-mobile" data-nav>
+        <i class='bx bxs-right-arrow' data-open-navbar></i>
+        <h1 class="nav-mobile__title">ultranet</h1>
+    </nav>
+    <div class="main">
+        <div class="main__search">
+            <i class="bx bx-search"></i>
+            <input placeholder="Search"></input>
+        </div>
+        <div class="main__content" data-main-content>
+            <div class="user__info" data-user-info>
+            </div>
+            <div class="posts__left-side" data-posts-left-section>
+                <div class="user__introduction" data-user-introduction>
+                    <h3>Introduction</h3>
+                </div>
+            </div>
+            <div class="posts__right-side" data-posts-right-section>
+                <div class="user__add-comment" data-user-add-comment>
+                </div>
+            </div>
+        </div>
+        <button class="open__users" data-open-users>
+            <i class="bx bx-message"></i>
+        </div>
+    </div>
+    <div class="users" data-users>
+        <div class="users__top-section">
+            <i class="bx bx-envelope"></i>
+            <i class="bx bx-bell has-notifications"></i>
+            <div class="top-section__user" data-top-section-user>
+                <span></span>
+                <img>
+                <span>▼</span>
+            </div>
+        </div>
+        <div class="users__contacts" data-users-contacts>
+            <h3>contacts</h3>
+        </div>
+    </div>
+</body>
+</html>
